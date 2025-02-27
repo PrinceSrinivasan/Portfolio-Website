@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatibIe" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Prince Srinivasan</title>
+</head>
+<body>
+    <nav id="desk-nav">
+        <div class="logo">Prince Srinivasan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="burger-nav">
+        <div class="logo">Prince Srinivasan</div>
+        <div class="burger-menu">
+            <div class="burger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                    <li><a href="#about" onclick="toogleMenu()">About</a></li>
+                    <li><a href="#exp" onclick="toogleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toogleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile-pic-container">
+            <img src="./profile-pic/profile-img.jpg"
+            alt="prince-profile-pic"
+            class="profile-img">
+        </div>
+        <div class="profile-text">
+            <p class="para1">Hello, I'm</p>
+            <h1 class="title">Prince Srinivasan</h1>
+            <p class="para2">Student</p>  
+            <div class="profile-button">
+                <button class="btn-contact-info" 
+                onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png"
+                alt="linkedin"
+                class="social-icon"
+                onclick="">
+
+                <img src="./assets/github.png"
+                alt="github"
+                class="social-icon"
+                onclick="">
+
+                <img src="./assets/instagram.png"
+                alt="instagram"
+                class="social-icon"
+                onclick="">
+                
+                <img src="./assets/spotify.png"
+                alt="spotify"
+                class="social-icon"
+                onclick="">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

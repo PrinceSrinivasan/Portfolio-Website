@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    #desk-nav {
+        display: none;
+    }
+
+    #burger-nav {
+        display: flex;
+    }
+
+    #profile, .section-container {
+        display: block;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .profile-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+}
