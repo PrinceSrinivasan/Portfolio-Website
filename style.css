@@ -320,3 +320,9 @@ a:hover {
 .icon-arrow:hover {
     cursor: pointer;
 }
+
+.about-text {
+    font-size: 1.3rem;
+    font-weight: 430;
+    text-align: justify;
+}
