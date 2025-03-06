@@ -28,8 +28,8 @@
 
     .about-pic {
         justify-content: center;
-        height: 313px;
-        width: 313px;
+        height: fit-content;
+        width: fit-content;
     }
 
     .title2 {
