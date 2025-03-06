@@ -25,4 +25,25 @@
     .about-containers{
         margin-top: 1rem;
     }
+
+    .about-pic {
+        justify-content: center;
+        height: 313px;
+        width: 313px;
+    }
+
+    .title2 {
+        margin-bottom: 2rem;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 313px;
+        justify-content: center;
+    }
+
+    .about-text {
+        margin-bottom: 3rem;
+        text-align: justify;
+    }
 }
