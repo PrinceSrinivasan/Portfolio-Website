@@ -51,3 +51,15 @@
         text-align: justify;
     }
 }
+
+.caution-sign {
+    width: 50px;
+    margin: 1rem;
+}
+
+.caution-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
