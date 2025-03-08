@@ -326,3 +326,15 @@ a:hover {
     font-weight: 430;
     text-align: justify;
 }
+
+.caution-sign {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.caution-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
